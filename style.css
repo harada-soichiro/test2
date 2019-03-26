@@ -41,6 +41,7 @@ body{
 	width:100%;
 	background-image: url(img/mv.png);
 	background-position: cover;
+	margin: 0 auto;
 }
 
 .name{
@@ -122,9 +123,13 @@ body{
 .feature-content:last-child{
 	margin-right:0;
 }
+.feature-icon{
+	width:320px;
+	height:60px;
+}
 .fa{
-	display: inline-block;
 	font-size: 60px;
+	width:320px;
 	text-align: center;
 }
 .feature-title{
@@ -145,7 +150,7 @@ body{
 }
 .profile-content{
 	width:1024px;
-	margin:0 auto;
+	margin: 0 auto;
 }
 .face{
 	float:left;
@@ -189,7 +194,14 @@ body{
 	float:left;
 	width:400px;
 	margin-bottom: 90px;
-	text-align: center;
+}
+.contact-box-box{
+		width: 130px;
+    	margin: 0 auto;
+}
+.contact-box-box2{
+		width: 178px;
+    	margin: 0 auto;
 }
 .contact-title{
 	position: relative;
@@ -306,11 +318,14 @@ footer{
 	.feature-content:last-child{
 		margin:0 auto;
 	}
+	.feature-text{
+		margin-right: 0px;
+	}
 	.profile-content{
 		width:90%;
 	}
 	.profile-explanation{
-	width:100%;
+		width:100%;
 	}
 	.profile-title{
 		text-align: center;
@@ -333,12 +348,19 @@ footer{
 	.contact-box{
 	width:100%;
 	margin:0 auto;
-	}
-	.contact-box{
-		padding-top: 20px;
-		padding-bottom: 5px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 	}
 	.contact-box:last-child{
 		padding-bottom:90px;
+	}
+	.contact-title{
+		text-align: center;
+	}
+	.contact-title2{
+		text-align: center;
+	}
+	.contact-content{
+		text-align: center;
 	}
 }
