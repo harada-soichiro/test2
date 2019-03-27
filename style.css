@@ -40,7 +40,8 @@ body{
 	height:650px;
 	width:100%;
 	background-image: url(img/mv.png);
-	background-position: cover;
+	background-size: cover;
+	background-position: center;
 	margin: 0 auto;
 }
 
@@ -75,6 +76,7 @@ body{
 	text-align: center;
 	padding-bottom: 30px;
 	padding-top:30px;
+	color:black;
 }
 .portfolio-content{
 	width:920px;
@@ -131,6 +133,7 @@ body{
 	font-size: 60px;
 	width:320px;
 	text-align: center;
+	color:black;
 }
 .feature-title{
 	text-align: center;
@@ -224,6 +227,7 @@ body{
 .fab{
 	font-size: 50px;
 	margin-right: 20px;
+	color:black;
 }
 .fab:last-child{
 	margin:0;
@@ -271,6 +275,12 @@ footer{
 	}
 	.title{
 		height:50px;
+	}
+	.name{
+		font-size: 40px;
+	}
+	.text1{
+		font-size: 18px;
 	}
 	.mainvisual{
 		background-image: url(img/code.png);
